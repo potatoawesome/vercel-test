@@ -1,22 +1,42 @@
 {
-  "name": "vercel-test",
+  "name": "apex-heat-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3006",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "20.4.5",
-    "@types/react": "18.2.16",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.45.0",
-    "eslint-config-next": "13.4.12",
-    "next": "13.4.12",
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "latest",
+    "@mui/lab": "^5.0.0-alpha.137",
+    "@mui/material": "^5.14.0",
+    "@types/node": "20.3.3",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "accept-language": "^3.0.18",
+    "downloadjs": "^1.4.7",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.8",
+    "formik": "^2.4.2",
+    "i18next": "^23.2.11",
+    "i18next-browser-languagedetector": "^7.1.0",
+    "i18next-resources-to-backend": "^1.1.4",
+    "leaflet": "^1.9.4",
+    "next": "13.4.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.1.6"
+    "react-i18next": "^13.0.2",
+    "react-leaflet": "^4.2.1",
+    "typescript": "5.1.6",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/downloadjs": "^1.4.3",
+    "@types/leaflet": "^1.9.3"
   }
 }
